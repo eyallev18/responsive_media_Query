@@ -1,8 +1,18 @@
 *{
     box-sizing:border-box
 }
-@media screen and (max-width: 300px) and (orientation:landscape) {
+@media screen and (min-width: 300px) and (orientation:landscape) {
     .pic {
+        display:none;
+    }
+}
+@media screen and (aspect-ratio:4/3) {
+    .text {
+        display:none;
+    }
+}
+@media screen and (min-width:500){
+    .video {
         display:none;
     }
 }
